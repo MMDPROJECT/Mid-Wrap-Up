@@ -1,3 +1,4 @@
+import java.util.Random;
 public class Lecture5Exercises {
 
     /*
@@ -5,8 +6,14 @@ public class Lecture5Exercises {
      *   given length using lower case letters
      *   lecture 5 page 14
      */
-    public String weakPassword(int length) {
-        return null;
+    public static String weakPassword(int length) {
+        String password = "";
+        Random rand = new Random();
+        for (int i = 0; i < length; i++){
+            int t = rand.nextInt(23);
+            password += (char) (t + 97);
+        }
+        return password;
     }
 
     /*
