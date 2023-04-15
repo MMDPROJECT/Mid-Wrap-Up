@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Lecture5ExercisesTest" tests="31" skipped="0" failures="0" errors="0" timestamp="2023-04-15T23:38:25" hostname="MMDPROJECT" time="0.082">
+  <properties/>
+  <testcase name="isFiboBinFalse()" classname="Lecture5ExercisesTest" time="0.008"/>
+  <testcase name="strongPasswordBadLength()" classname="Lecture5ExercisesTest" time="0.002"/>
+  <testcase name="[1] 1" classname="Lecture5ExercisesTest" time="0.018"/>
+  <testcase name="[2] 2" classname="Lecture5ExercisesTest" time="0.0"/>
+  <testcase name="[3] 5" classname="Lecture5ExercisesTest" time="0.001"/>
+  <testcase name="[4] 10" classname="Lecture5ExercisesTest" time="0.001"/>
+  <testcase name="[5] 20" classname="Lecture5ExercisesTest" time="0.0"/>
+  <testcase name="isFiboBinTrue()" classname="Lecture5ExercisesTest" time="0.0"/>
+  <testcase name="[1] 5" classname="Lecture5ExercisesTest" time="0.002"/>
+  <testcase name="[2] 10" classname="Lecture5ExercisesTest" time="0.001"/>
+  <testcase name="[3] 20" classname="Lecture5ExercisesTest" time="0.001"/>
+  <testcase name="strongPasswordTest 1/20" classname="Lecture5ExercisesTest" time="0.001"/>
+  <testcase name="strongPasswordTest 2/20" classname="Lecture5ExercisesTest" time="0.001"/>
+  <testcase name="strongPasswordTest 3/20" classname="Lecture5ExercisesTest" time="0.001"/>
+  <testcase name="strongPasswordTest 4/20" classname="Lecture5ExercisesTest" time="0.0"/>
+  <testcase name="strongPasswordTest 5/20" classname="Lecture5ExercisesTest" time="0.001"/>
+  <testcase name="strongPasswordTest 6/20" classname="Lecture5ExercisesTest" time="0.001"/>
+  <testcase name="strongPasswordTest 7/20" classname="Lecture5ExercisesTest" time="0.001"/>
+  <testcase name="strongPasswordTest 8/20" classname="Lecture5ExercisesTest" time="0.001"/>
+  <testcase name="strongPasswordTest 9/20" classname="Lecture5ExercisesTest" time="0.0"/>
+  <testcase name="strongPasswordTest 10/20" classname="Lecture5ExercisesTest" time="0.0"/>
+  <testcase name="strongPasswordTest 11/20" classname="Lecture5ExercisesTest" time="0.0"/>
+  <testcase name="strongPasswordTest 12/20" classname="Lecture5ExercisesTest" time="0.0"/>
+  <testcase name="strongPasswordTest 13/20" classname="Lecture5ExercisesTest" time="0.0"/>
+  <testcase name="strongPasswordTest 14/20" classname="Lecture5ExercisesTest" time="0.0"/>
+  <testcase name="strongPasswordTest 15/20" classname="Lecture5ExercisesTest" time="0.0"/>
+  <testcase name="strongPasswordTest 16/20" classname="Lecture5ExercisesTest" time="0.001"/>
+  <testcase name="strongPasswordTest 17/20" classname="Lecture5ExercisesTest" time="0.001"/>
+  <testcase name="strongPasswordTest 18/20" classname="Lecture5ExercisesTest" time="0.001"/>
+  <testcase name="strongPasswordTest 19/20" classname="Lecture5ExercisesTest" time="0.0"/>
+  <testcase name="strongPasswordTest 20/20" classname="Lecture5ExercisesTest" time="0.001"/>
+  <system-out><![CDATA[1
+1!_
+7
+7%%$#^%_
+9228371115442
+9228371115442(&
+5
+5/
+7
+7$
+5
+5$
+7
+7&
+6
+6)
+6
+6*
+7
+7!
+8
+8#
+5
+5(
+6
+6)
+7
+7(
+2
+2~
+8
+8#
+7
+7#
+4
+4*
+5
+5/
+8
+8@
+3
+3/
+7
+7!
+7
+7/
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -5,10 +5,6 @@ import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
 public class Lecture6Exercises {
-
-    public static void main(String[] args) {
-        System.out.println(extractWord("hi! how ,are you?"));
-    }
     /*
      *   implement a function that takes an array of int and return sum of
      *   elements at even positions

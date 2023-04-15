@@ -1,10 +1,6 @@
 import java.util.Random;
 
 public class Lecture5Exercises {
-    public static void main(String[] args) throws Exception {
-        System.out.println(strongPassword(5));
-    }
-
     /*
      *   implement a function to create a random password with
      *   given length using lower case letters
@@ -29,18 +25,26 @@ public class Lecture5Exercises {
 
     public static String strongPassword(int length) throws Exception {
         String password = "";
-        Random rand = new Random();
-        int digits = rand.nextInt(length - 1) + 1;
-        int sp = rand.nextInt(length - digits) + 1;
-        int r = length - sp - digits;
-        for (int i = 0; i < digits; i++) {
-            password += rand.nextInt(9) + 1;
+        if (length < 3){
+            throw new Exception("Length should be longer than 2!");
         }
-        for (int i = 0; i < sp; i++) {
-            password += '-';
-        }
-        for (int i = 0; i < r; i++) {
-            password += (char) rand.nextInt();
+        else {
+            Random rand = new Random();
+            String specials = "~!@#$%^&*()_-/";
+            int digits = rand.nextInt(length - 2) + 1;
+            int sps = rand.nextInt(length - digits - 1) + 1;
+            int r = length - sps - digits;
+            for (int i = 0; i < digits; i++) {
+                password += rand.nextInt(9) + 1;
+            }
+            System.out.println(password);
+            for (int i = 0; i < sps; i++) {
+                password += specials.charAt(rand.nextInt(14));
+            }
+            System.out.println(password);
+            for (int i = 0; i < r; i++) {
+                password += (char) (rand.nextInt(26) + 97);
+            }
         }
         return password;
     }
